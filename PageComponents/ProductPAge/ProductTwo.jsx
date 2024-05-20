@@ -70,7 +70,7 @@ const ProductTwo = () => {
           </div>
         </div>
 
-        <div class="row g-5">
+        {/* <div class="row g-5">
           <div
             data-sal="slide-up"
             data-sal-delay="150"
@@ -1068,7 +1068,7 @@ const ProductTwo = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

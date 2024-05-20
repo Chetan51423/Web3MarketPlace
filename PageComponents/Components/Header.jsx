@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Users from '../../utils/constants'
 
 import { useStateContext } from "../../context";
 
 const Header = () => {
   const { currentAccount, connectWallet, userBlance } = useStateContext();
+  function getUserByAddress()
+  {
+    return Users.filter(userr=> userr.address1 == currentAccount)[0]; //   console.log(typeof(userr.address1)+"    "+ typeof(address))
+  }
+  
 
+  const user = getUserByAddress();
   return (
     <>
       <header class="rn-header haeder-default header--sticky">
@@ -70,7 +77,7 @@ const Header = () => {
               </div>
             </div>
             <div class="header-right">
-              <div class="setting-option d-none d-lg-block">
+              {/* <div class="setting-option d-none d-lg-block">
                 <form class="search-form-wrapper" action="#">
                   <input
                     type="search"
@@ -83,8 +90,8 @@ const Header = () => {
                     </button>
                   </div>
                 </form>
-              </div>
-              <div class="setting-option rn-icon-list d-block d-lg-none">
+              </div> */}
+              {/* <div class="setting-option rn-icon-list d-block d-lg-none">
                 <div class="icon-box search-mobile-icon">
                   <button>
                     <i class="feather-search"></i>
@@ -103,7 +110,7 @@ const Header = () => {
                     <input type="text" placeholder="Search ..." />
                   </div>
                 </form>
-              </div>
+              </div> */}
 
               {/* //CONNECT WALLET */}
 
@@ -146,7 +153,8 @@ const Header = () => {
                         <div class="rn-inner-top">
                           <h4 class="title">
                             <a href="product-details.html">
-                              Chetan Shinde
+  
+                              {user ? user.First_Name+" "+user.Last_Name : "User not found"}
                             </a>
                           </h4>
                           {/* <span>
@@ -202,12 +210,12 @@ const Header = () => {
                           <li>
                             <a href="/author">My Profile</a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="/edit-profile">Edit Profile</a>
                           </li>
                           <li>
                             <a href="/connect">Manage funds</a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -234,12 +242,7 @@ const Header = () => {
         <div class="inner">
           <div class="header-top">
             <div class="logo logo-custom-css">
-              <a class="logo-light" href="index.html">
-                <img src="/logo/logo-white.png" alt="nft-logo" />
-              </a>
-              <a class="logo-dark" href="index.html">
-                <img src="/logo/logo-dark.png" alt="nft-logo" />
-              </a>
+              <h2>Web3 Marketplace</h2>
             </div>
             <div class="close-menu">
               <button class="close-button">

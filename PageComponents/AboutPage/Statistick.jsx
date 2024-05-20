@@ -6,7 +6,7 @@ const Statistick = () => {
       <div class="container">
         <div class="row mb--30">
           <div class="col-12 text-center">
-            <h3>Nuron Statistics</h3>
+            <h3>Web3 RealEstate Marketplace</h3>
           </div>
         </div>
         <div class="row g-5">
@@ -15,7 +15,7 @@ const Statistick = () => {
               <h3 class="counter">
                 <span data-count="309">40</span>
               </h3>
-              <div class="botton-title">Nuron All NFT's</div>
+              <div class="botton-title">Total Listed Properties</div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
@@ -23,10 +23,10 @@ const Statistick = () => {
               <h3 class="counter">
                 <span data-count="508">200</span>
               </h3>
-              <div class="botton-title">All Creators</div>
+              <div class="botton-title">Total Creators</div>
             </div>
           </div>
-          <div class="offset-lg-2 col-lg-4 col-md-6">
+          {/* <div class="offset-lg-2 col-lg-4 col-md-6">
             <div class="single-counter-up text-center">
               <h3 class="counter">
                 <span data-count="1032">700</span>
@@ -41,7 +41,7 @@ const Statistick = () => {
               </h3>
               <div class="botton-title">Level One Seller</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -3,4 +3,4 @@ import ProductTwo from "./ProductTwo";
 import ProductThree from "./ProductThree";
 import ProductFour from "./ProductFour";
 
-export { ProductFour, ProductOne, ProductThree, ProductTwo };
+export { ProductFour,  ProductThree, ProductTwo };

@@ -16,8 +16,8 @@ const about = () => {
       <Header />
       <Banner />
       <Action />
-      <Blog />
-      <Quote />
+      {/* <Blog /> */}
+      {/* <Quote /> */}
       <Statistick />
       <Footer />
       <Copyright />

@@ -18,16 +18,15 @@ const Action = () => {
                       data-sal-duration="800"
                       data-sal-delay="150"
                     >
-                      Discover rare digital art <br /> and collect NFTs
+                      Discover listed Properties <br /> sell and buy them
                     </h3>
                     <p
                       data-sal="slide-up"
                       data-sal-duration="800"
                       data-sal-delay="150"
                     >
-                      The NFTs is a one-trick pony that climbed the recent
-                      years. The growth of NFTs is tremendous, and according to
-                      Pymnts.com, the total sales volume{" "}
+                      The  is blockchain one-trick pony that climbed the recent
+                      years. The growth of DAPPs is tremendous, the RealEstate sectore need some secure and advance platform to buy and sell properties.
                     </p>
                     <div
                       class="callto-action-btn-wrapper"
@@ -35,15 +34,14 @@ const Action = () => {
                       data-sal-duration="800"
                       data-sal-delay="150"
                     >
-                      <a href="create.html" class="btn btn-primary btn-large">
-                        Create
+                      <a href="/create" class="btn btn-primary btn-large">
+                        List Property
                       </a>
-                      <a
-                        href="contact.html"
-                        class="btn btn-primary-alta btn-large"
-                      >
-                        Contact Us
+                      <a href="/" class="btn btn-primary btn-large">
+                        Explore Property
                       </a>
+
+                      
                     </div>
                   </div>
                 </div>

@@ -12,7 +12,7 @@ const Service = () => {
               data-sal=""
               data-sal-duration="800"
             >
-              Create and sell your NFTs
+              List and Sell your Properties
             </h3>
           </div>
         </div>
@@ -34,8 +34,8 @@ const Service = () => {
                     <a href="#">Set up your wallet</a>
                   </h4>
                   <p class="description">
-                    Powerful features and inclusions, which makes Nuron
-                    standout, easily customizable and scalable.
+                   Connect your wallet by simply clicking connect option at the nav bar and connect. 
+                   You can connect different wallets. 
                   </p>
                   <a class="read-more-button" href="#">
                     <i class="feather-arrow-right"></i>
@@ -63,8 +63,8 @@ const Service = () => {
                     <a href="#">Create your collection</a>
                   </h4>
                   <p class="description">
-                    A great collection of beautiful website templates for your
-                    need. Choose the best suitable template.
+                    You can create collection of properties of your choise and explore the realism of 
+                    web3 marketplace.
                   </p>
                   <a class="read-more-button" href="#">
                     <i class="feather-arrow-right"></i>
@@ -89,11 +89,11 @@ const Service = () => {
                 <div class="subtitle">Step-03</div>
                 <div class="content">
                   <h4 class="title">
-                    <a href="#">Add your NFT's</a>
+                    <a href="#">Add your Properties</a>
                   </h4>
                   <p class="description">
-                    We've made the template fully responsive, so it looks great
-                    on all devices: desktop, tablets and.
+                    Once your wallet is connected you can add properties to the the web3 marketplace.
+
                   </p>
                   <a class="read-more-button" href="#">
                     <i class="feather-arrow-right"></i>
@@ -118,11 +118,10 @@ const Service = () => {
                 <div class="subtitle">Step-04</div>
                 <div class="content">
                   <h4 class="title">
-                    <a href="#">Sell Your NFT's</a>
+                    <a href="#">Buy and Sell your Properties</a>
                   </h4>
                   <p class="description">
-                    I throw myself down among the tall grass by the stream as I
-                    lie close to the earth NFT's.
+                    Now you can Buy and sell properties that you like.
                   </p>
                   <a class="read-more-button" href="#">
                     <i class="feather-arrow-right"></i>

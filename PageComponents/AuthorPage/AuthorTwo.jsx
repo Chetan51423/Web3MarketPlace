@@ -1,17 +1,32 @@
 import React from "react";
 
+import Users from "../../utils/constants"
+
 const AuthorTwo = ({ address, author }) => {
+
+  
+  function getUserByAddress()
+  {
+    return Users.filter(userr=> userr.address1 == address)[0]; //   console.log(typeof(userr.address1)+"    "+ typeof(address))
+  }
+
+  const user = getUserByAddress();
+  
+
+// console.log(JSON.stringify(user.address1))
+  // console.log("here is the address --> "+JSON.stringify(getUserByAddress()[0].First_Name, null, 2) ); // JSON.stringify(getUserByAddress()[0], null, 2)
   return (
     <div class="rn-author-area mb--30 mt_dec--120">
       <div class="container">
         <div class="row padding-tb-50 align-items-center d-flex">
-          <div class="col-lg-12">
+          <div class="col-lg-12"> 
             <div class="author-wrapper">
               <div class="author-inner">
                 <div class="user-thumbnail">
                   <img src="/profile/profile-01.jpg" alt="" />
                 </div>
                 <div class="rn-author-info-content">
+                  <h4 class="title">{user ? user.First_Name : "User not found"}</h4>
                   <h4 class="title">{address}</h4>
                   <a href="#" class="social-follw">
                     {/* <i data-feather="twitter"></i> */}

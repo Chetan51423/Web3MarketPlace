@@ -76,7 +76,7 @@ const Collection = ({ housing, rental, farmhouse, office }) => {
                     />
                   </div>
                   <div class="collenction-small-thumbnail">
-                    <img
+                    {/* <img
                       src={`/portfolio/portfolio-${i + 16}.jpg`}
                       alt="Nft_Profile"
                     />
@@ -87,13 +87,13 @@ const Collection = ({ housing, rental, farmhouse, office }) => {
                     <img
                       src={`/portfolio/portfolio-${i + 11}.jpg`}
                       alt="Nft_Profile"
-                    />
+                    /> */}
                   </div>
                   <div class="collection-profile">
-                    <img
+                    {/* <img
                       src={`/client/client-${i + 1}.png`}
                       alt="Nft_Profile"
-                    />
+                    /> */}
                   </div>
                   <div class="collection-deg">
                     <h6 class="title">{collection.name}</h6>

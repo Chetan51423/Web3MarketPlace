@@ -71,7 +71,7 @@ const index = () => {
 
       <Live properties={properties} />
       <Service />
-      <Product properties={properties} />
+      {/* <Product properties={properties} /> */}
       {/* <TopSeller creators={creators} /> */}
 
       <Collection

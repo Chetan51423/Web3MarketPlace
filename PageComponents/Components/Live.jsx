@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Live = ({ properties }) => {
+  console.log(properties)
   return (
     <div class="rn-live-bidding-area rn-section-gapTop">
       <div class="container">
@@ -37,6 +38,7 @@ const Live = ({ properties }) => {
                   <div class="card-thumbnail">
                     <a href={`/detail?property=${property.productID}`}>
                       <img src={property.image} alt="NFT_portfolio" />
+                      {console.log(property.image)}
                     </a>
                   </div>
                   <div class="product-share-wrapper">
